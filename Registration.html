@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alankar Lodging</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts1/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css1/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <form action="Registration.php" method="POST" class="appointment-form" id="appointment-form" >
+                <h2>Register </h2>
+                <div class="form-group-1">
+                    
+                    <input type="text" name="user" id="name" placeholder="Name" required />
+					<input type="text" name="mobile" id="phone_number" placeholder="Phone number start with 91" required />
+                    <input type="email" name="email" id="email" placeholder="Email" required />
+					<input type="text" name="aadhar" id="aadhar" placeholder="Aadhar Card Number" required />
+					<textarea rows="5" cols="63" name="addr" id="title" placeholder="Address" required ></textarea>
+					<br> <br>
+					<input type="password" name="pass" id="pass" placeholder="Password" required />
+					 <input type="password" name="repass" id="repass" placeholder="Confirm Password" required />
+                <div class="form-submit">
+                    <input type="submit" name="submit" id="submit" class="submit" value="Register" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor1/jquery/jquery.min.js"></script>
+    <script src="js1/main.js"></script>
+</body>
+</html>

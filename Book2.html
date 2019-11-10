@@ -1,0 +1,56 @@
+
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alankar Lodging</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts1/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css1/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <form action="Book2.php" method="POST" class="appointment-form" id="appointment-form" >
+                <h2>BOOK ROOM</h2>
+                <div class="form-group-1">
+                        <div class="row">
+                            <div class="col-xl-6">
+							 <input placeholder="Check In Date" class="textbox-n" type="text" onfocus="(this.type='date')"  name="idate">                           
+                            </div>
+                            <div class="col-xl-6">
+							   <input placeholder="Check Out Date" class="textbox-n" type="text" onfocus="(this.type='date')"  name="odate"> 
+                            </div>
+                            <div class="col-xl-6">
+                                <select class="form-select wide" id="default-select" name="adult">
+                                    <option data-display="Adult">Number of Adult</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+									<option value="3">3</option>
+                                </select>
+                            </div>
+                            <div class="col-xl-6">
+                                <select class="form-select wide" id="default-select" name="child">
+                                    <option data-display="Children">Number of Children</option>
+                                    <option value="1">1</option>
+									<option value="2">2</option>
+                                </select>
+                            </div>
+                            
+                            <div class="col-xl-12">
+                                <button type="submit" class="boxed-btn3">BOOK</button>
+                            </div>
+                        </div>
+        </div>
+		</form>
+    </div>
+
+    <!-- JS -->
+    <script src="vendor1/jquery/jquery.min.js"></script>
+    <script src="js1/main.js"></script>
+</body>
+</html>
